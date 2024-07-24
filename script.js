@@ -49,9 +49,8 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, heading', { orgin: 'top' });
 ScrollReveal().reveal('.home-img, .skill-content, .project-box, .contact form', { orgin: 'buttom' });
-ScrollReveal().reveal('.home-content h3, .edu-detail',{orgin: 'right'});
-ScrollReveal().reveal('.home-contact h1, .about-img, .edu-img', { orgin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { orgin: 'right' });
+ScrollReveal().reveal('.home-contact h1, .about-content, .arts', { orgin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content,', { orgin: 'right' });
 
 const typed = new Typed('.multiple-text', {
     strings: ['a Jr. Web Developer', ' an Artist','a Frontend Developer'],
